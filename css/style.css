@@ -150,3 +150,80 @@ footer .logo {
 .address a {
   font-style: normal;
 }
+
+/*Стили главной страницы*/
+
+.hero {
+  background-color: var(--second-bcg-color);
+}
+
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero button {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* О компании*/
+.features ul,
+.about-us ul,
+.team ul {
+  list-style: none;
+}
+.features h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--title-color);
+}
+
+.features p {
+  font-size: 14px;
+  line-height: 1, 71;
+}
+
+.about-us h2,
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-color);
+}
+
+/*Команда*/
+.team {
+  background-color: var(--button-main-color);
+}
+.team h3 {
+  font-weight: 500;
+  line-height: 1.18;
+  text-align: center;
+
+  color: var(--title-color);
+}
+.team p {
+  text-align: center;
+}
