@@ -229,5 +229,7 @@ footer .logo {
   color: var(--title-color);
 }
 .team p {
+  line-height: 1.19;
+
   text-align: center;
 }
