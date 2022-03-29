@@ -10,7 +10,6 @@
 /* Основной стиль страницы*/
 body {
   font-family: Roboto, sans-serif;
-  line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--main-color);
   background-color: var(--main-bcg-color);
@@ -149,6 +148,11 @@ footer .logo {
 }
 .address a {
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /*Стили главной страницы*/
