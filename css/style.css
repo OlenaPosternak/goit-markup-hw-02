@@ -121,10 +121,11 @@ body {
   letter-spacing: 0.06em;
   color: var(--title-color);
 }
-.projects-card-title:hover,
-.projects-card-title:focus,
-.projects .description:hover,
-.projects .description:focus {
+
+.link:hover .projects-card-title,
+.link:focus .projects-card-title,
+.link:hover .description,
+.link:focus .description {
   color: var(--accent-color);
 }
 
