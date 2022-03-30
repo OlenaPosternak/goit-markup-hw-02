@@ -222,6 +222,7 @@ footer .logo {
   background-color: var(--button-main-color);
 }
 .team h3 {
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
   text-align: center;
